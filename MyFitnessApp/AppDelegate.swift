@@ -12,6 +12,12 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    @IBOutlet weak var totalSteps: UITextField?
+    @IBOutlet weak var  numberOfAscendedFloors: UITextField?
+    @IBOutlet weak var  numberOfDescendedFloors: UITextField?
+    @IBOutlet weak var  totalDistance: UITextField?
+    @IBAction 
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
